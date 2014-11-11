@@ -1,0 +1,34 @@
+{
+  "name": "catlabinteractive/neuron-example",
+  "type": "example",
+  "description": "Simple example",
+  "keywords": ["example"],
+  "homepage":"http://github.com/catlabinteractive/neuron",
+  "license": "MIT",
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/catlabinteractive/neuron"
+    },
+
+    {
+      "type": "vcs",
+      "url": "https://github.com/catlabinteractive/signin"
+    }
+  ],
+
+  "require": {
+    "catlabinteractive/neuron": "dev-master",
+    "catlabinteractive/signin": "dev-master"
+  },
+
+  "authors" : [
+    {
+      "name": "Thijs Van der Schaeghe",
+      "email" : "info@catlab.be",
+      "homepage" : "https://www.catlab.eu/",
+      "role" : "Developer"
+    }
+  ]
+}
